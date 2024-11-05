@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Flashcards</h1>
+    <div id="flashcard" class="flashcard">
+      <div class="front">
+        <p id="question">Qual é a capital do Brasil?</p>
+      </div>
+      <div class="back">
+        <p id="answer">Brasília</p>
+      </div>
+    </div>
+    <div class="buttons">
+      <button onclick="flipCard()">Mostrar Resposta</button>
+      <button onclick="nextCard()">Próximo</button>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
